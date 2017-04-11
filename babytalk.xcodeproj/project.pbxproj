@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B648F2A11E9CE277007AC794 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B648F2A01E9CE277007AC794 /* main.m */; };
+		B648F2A41E9CE277007AC794 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B648F2A31E9CE277007AC794 /* AppDelegate.m */; };
+		B648F2A71E9CE277007AC794 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B648F2A61E9CE277007AC794 /* ViewController.m */; };
+		B648F2AA1E9CE277007AC794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B648F2A81E9CE277007AC794 /* Main.storyboard */; };
+		B648F2AC1E9CE277007AC794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B648F2AB1E9CE277007AC794 /* Assets.xcassets */; };
+		B648F2AF1E9CE277007AC794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B648F2AD1E9CE277007AC794 /* LaunchScreen.storyboard */; };
+		B648F2BA1E9CE277007AC794 /* babytalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B648F2B91E9CE277007AC794 /* babytalkTests.m */; };
+		B648F2C51E9CE277007AC794 /* babytalkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B648F2C41E9CE277007AC794 /* babytalkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B648F2B61E9CE277007AC794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B648F2941E9CE277007AC794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B648F29B1E9CE277007AC794;
+			remoteInfo = babytalk;
+		};
+		B648F2C11E9CE277007AC794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B648F2941E9CE277007AC794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B648F29B1E9CE277007AC794;
+			remoteInfo = babytalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B648F29C1E9CE277007AC794 /* babytalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = babytalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B648F2A01E9CE277007AC794 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B648F2A21E9CE277007AC794 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B648F2A31E9CE277007AC794 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B648F2A51E9CE277007AC794 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B648F2A61E9CE277007AC794 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B648F2A91E9CE277007AC794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B648F2AB1E9CE277007AC794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B648F2AE1E9CE277007AC794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B648F2B01E9CE277007AC794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B648F2B51E9CE277007AC794 /* babytalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = babytalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B648F2B91E9CE277007AC794 /* babytalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = babytalkTests.m; sourceTree = "<group>"; };
+		B648F2BB1E9CE277007AC794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B648F2C01E9CE277007AC794 /* babytalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = babytalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B648F2C41E9CE277007AC794 /* babytalkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = babytalkUITests.m; sourceTree = "<group>"; };
+		B648F2C61E9CE277007AC794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B648F2991E9CE277007AC794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B648F2B21E9CE277007AC794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B648F2BD1E9CE277007AC794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B648F2931E9CE277007AC794 = {
+			isa = PBXGroup;
+			children = (
+				B648F29E1E9CE277007AC794 /* babytalk */,
+				B648F2B81E9CE277007AC794 /* babytalkTests */,
+				B648F2C31E9CE277007AC794 /* babytalkUITests */,
+				B648F29D1E9CE277007AC794 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B648F29D1E9CE277007AC794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B648F29C1E9CE277007AC794 /* babytalk.app */,
+				B648F2B51E9CE277007AC794 /* babytalkTests.xctest */,
+				B648F2C01E9CE277007AC794 /* babytalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B648F29E1E9CE277007AC794 /* babytalk */ = {
+			isa = PBXGroup;
+			children = (
+				B648F2A21E9CE277007AC794 /* AppDelegate.h */,
+				B648F2A31E9CE277007AC794 /* AppDelegate.m */,
+				B648F2A51E9CE277007AC794 /* ViewController.h */,
+				B648F2A61E9CE277007AC794 /* ViewController.m */,
+				B648F2A81E9CE277007AC794 /* Main.storyboard */,
+				B648F2AB1E9CE277007AC794 /* Assets.xcassets */,
+				B648F2AD1E9CE277007AC794 /* LaunchScreen.storyboard */,
+				B648F2B01E9CE277007AC794 /* Info.plist */,
+				B648F29F1E9CE277007AC794 /* Supporting Files */,
+			);
+			path = babytalk;
+			sourceTree = "<group>";
+		};
+		B648F29F1E9CE277007AC794 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B648F2A01E9CE277007AC794 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B648F2B81E9CE277007AC794 /* babytalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				B648F2B91E9CE277007AC794 /* babytalkTests.m */,
+				B648F2BB1E9CE277007AC794 /* Info.plist */,
+			);
+			path = babytalkTests;
+			sourceTree = "<group>";
+		};
+		B648F2C31E9CE277007AC794 /* babytalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B648F2C41E9CE277007AC794 /* babytalkUITests.m */,
+				B648F2C61E9CE277007AC794 /* Info.plist */,
+			);
+			path = babytalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B648F29B1E9CE277007AC794 /* babytalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B648F2C91E9CE277007AC794 /* Build configuration list for PBXNativeTarget "babytalk" */;
+			buildPhases = (
+				B648F2981E9CE277007AC794 /* Sources */,
+				B648F2991E9CE277007AC794 /* Frameworks */,
+				B648F29A1E9CE277007AC794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = babytalk;
+			productName = babytalk;
+			productReference = B648F29C1E9CE277007AC794 /* babytalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B648F2B41E9CE277007AC794 /* babytalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B648F2CC1E9CE277007AC794 /* Build configuration list for PBXNativeTarget "babytalkTests" */;
+			buildPhases = (
+				B648F2B11E9CE277007AC794 /* Sources */,
+				B648F2B21E9CE277007AC794 /* Frameworks */,
+				B648F2B31E9CE277007AC794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B648F2B71E9CE277007AC794 /* PBXTargetDependency */,
+			);
+			name = babytalkTests;
+			productName = babytalkTests;
+			productReference = B648F2B51E9CE277007AC794 /* babytalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B648F2BF1E9CE277007AC794 /* babytalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B648F2CF1E9CE277007AC794 /* Build configuration list for PBXNativeTarget "babytalkUITests" */;
+			buildPhases = (
+				B648F2BC1E9CE277007AC794 /* Sources */,
+				B648F2BD1E9CE277007AC794 /* Frameworks */,
+				B648F2BE1E9CE277007AC794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B648F2C21E9CE277007AC794 /* PBXTargetDependency */,
+			);
+			name = babytalkUITests;
+			productName = babytalkUITests;
+			productReference = B648F2C01E9CE277007AC794 /* babytalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B648F2941E9CE277007AC794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wei;
+				TargetAttributes = {
+					B648F29B1E9CE277007AC794 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					B648F2B41E9CE277007AC794 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B648F29B1E9CE277007AC794;
+					};
+					B648F2BF1E9CE277007AC794 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B648F29B1E9CE277007AC794;
+					};
+				};
+			};
+			buildConfigurationList = B648F2971E9CE277007AC794 /* Build configuration list for PBXProject "babytalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B648F2931E9CE277007AC794;
+			productRefGroup = B648F29D1E9CE277007AC794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B648F29B1E9CE277007AC794 /* babytalk */,
+				B648F2B41E9CE277007AC794 /* babytalkTests */,
+				B648F2BF1E9CE277007AC794 /* babytalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B648F29A1E9CE277007AC794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B648F2AF1E9CE277007AC794 /* LaunchScreen.storyboard in Resources */,
+				B648F2AC1E9CE277007AC794 /* Assets.xcassets in Resources */,
+				B648F2AA1E9CE277007AC794 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B648F2B31E9CE277007AC794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B648F2BE1E9CE277007AC794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B648F2981E9CE277007AC794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B648F2A71E9CE277007AC794 /* ViewController.m in Sources */,
+				B648F2A41E9CE277007AC794 /* AppDelegate.m in Sources */,
+				B648F2A11E9CE277007AC794 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B648F2B11E9CE277007AC794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B648F2BA1E9CE277007AC794 /* babytalkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B648F2BC1E9CE277007AC794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B648F2C51E9CE277007AC794 /* babytalkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B648F2B71E9CE277007AC794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B648F29B1E9CE277007AC794 /* babytalk */;
+			targetProxy = B648F2B61E9CE277007AC794 /* PBXContainerItemProxy */;
+		};
+		B648F2C21E9CE277007AC794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B648F29B1E9CE277007AC794 /* babytalk */;
+			targetProxy = B648F2C11E9CE277007AC794 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B648F2A81E9CE277007AC794 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B648F2A91E9CE277007AC794 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B648F2AD1E9CE277007AC794 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B648F2AE1E9CE277007AC794 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B648F2C71E9CE277007AC794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B648F2C81E9CE277007AC794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B648F2CA1E9CE277007AC794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = babytalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wei.www.babytalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B648F2CB1E9CE277007AC794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = babytalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wei.www.babytalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B648F2CD1E9CE277007AC794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = babytalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wei.www.babytalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/babytalk.app/babytalk";
+			};
+			name = Debug;
+		};
+		B648F2CE1E9CE277007AC794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = babytalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wei.www.babytalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/babytalk.app/babytalk";
+			};
+			name = Release;
+		};
+		B648F2D01E9CE277007AC794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = babytalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wei.www.babytalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = babytalk;
+			};
+			name = Debug;
+		};
+		B648F2D11E9CE277007AC794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = babytalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wei.www.babytalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = babytalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B648F2971E9CE277007AC794 /* Build configuration list for PBXProject "babytalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B648F2C71E9CE277007AC794 /* Debug */,
+				B648F2C81E9CE277007AC794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B648F2C91E9CE277007AC794 /* Build configuration list for PBXNativeTarget "babytalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B648F2CA1E9CE277007AC794 /* Debug */,
+				B648F2CB1E9CE277007AC794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B648F2CC1E9CE277007AC794 /* Build configuration list for PBXNativeTarget "babytalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B648F2CD1E9CE277007AC794 /* Debug */,
+				B648F2CE1E9CE277007AC794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B648F2CF1E9CE277007AC794 /* Build configuration list for PBXNativeTarget "babytalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B648F2D01E9CE277007AC794 /* Debug */,
+				B648F2D11E9CE277007AC794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B648F2941E9CE277007AC794 /* Project object */;
+}
